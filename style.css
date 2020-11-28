@@ -1,0 +1,19 @@
+
+html , body {
+    background: url('bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Nerko One', cursive;
+    height: 7000px;
+}
+.main {
+   
+    width:50%;
+    border-radius: 30px 30px;
+    background-color: rgb(255, 230, 208);
+    height: 200px;
+}
+h1 {
+    color:blue;
+    text-decoration: underline;
+}
