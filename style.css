@@ -11,9 +11,36 @@ html , body {
     width:50%;
     border-radius: 30px 30px;
     background-color: rgb(255, 230, 208);
-    height: 200px;
+
+
+}
+#iff{
+    width:485px;
+    height: 402px;
+}
+#space {
+width: 300px;
 }
 h1 {
     color:blue;
     text-decoration: underline;
+}
+table {
+    text-align: center;
+    font-size: 19px;
+}
+span{
+    color: red;
+}
+@media only screen and (max-width:720px) {
+    .main{
+        width:100%;
+    }
+    #iff{
+        width:100%;
+        height:400px;
+    }
+#space {
+width:80%;
+}
 }
